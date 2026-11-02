@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "workflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "/home/razcyber/landing-page/.archify/workflow-kopi-pagi-20261103-112000/candidate.json",
+    "sha256": "1173a9b1dc5d3ead1508e1f20572bbc8c56dbf2fcf3dfe9aebfda0ca5fef4930",
+    "bytes": 2714
+  },
+  "artifact": {
+    "path": "/home/razcyber/landing-page/.archify/workflow-kopi-pagi-20261103-112000/kopi-pagi.html",
+    "sha256": "0b1d3c44391d8a04f1ddb32500dd0e21b1f6fe740841e807378705c68607a9a4",
+    "bytes": 837638
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "/home/razcyber/landing-page/.archify/workflow-kopi-pagi-20261103-112000/kopi-pagi.finalize.json",
+    "summaryReceipt": "/home/razcyber/landing-page/.archify/workflow-kopi-pagi-20261103-112000/kopi-pagi.finalize-summary.json",
+    "browserCheckReceipt": "/home/razcyber/landing-page/.archify/workflow-kopi-pagi-20261103-112000/kopi-pagi.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.2.0",
+    "availableVersion": "3.2.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-11-02T21:14:52.615Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 6245,
+  "browserCheck": {
+    "requested": true,
+    "ran": true
+  }
+}
