@@ -35,7 +35,7 @@ python3 -m http.server 4173
 ## Kontributor
 
 - **[razihafitz1-rh](https://github.com/razihafitz1-rh)** — pemilik repo dan pengarah.
-- **OpenCode** <img src="assets/opencode-logo.svg" alt="Logo OpenCode" width="20" height="20" align="top"> — agen AI ([opencode.ai](https://opencode.ai)) yang menulis kode, tata letak, teks, dan hingar-bingar interaksinya.
+- **OpenCode** <img src="assets/opencode-logo-ink.svg" alt="Logo OpenCode" width="20" height="20" align="top"> — agen AI ([opencode.ai](https://opencode.ai)) yang menulis kode, tata letak, teks, dan hingar-bingar interaksinya.
 - **Archify** — diagram alur dari kebun ke cangkir (lihat `.archify/`).
 - **Sembilan fotografer Wikimedia Commons** — foto, kredit lengkap di footer halaman.
 
