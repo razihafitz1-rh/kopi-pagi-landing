@@ -424,7 +424,7 @@ h1, h2, h3 {
 .recipe__intro h3 { font-size: 1.375rem; letter-spacing: -0.02em; margin-bottom: 12px; }
 .recipe__intro p { color: #4a3a26; max-width: 38ch; font-size: 0.9375rem; }
 
-.recipe__tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+/* ---------- recipe selector ---------- */
 .tab {
   font: inherit;
   font-size: 0.9375rem;
@@ -457,7 +457,7 @@ h1, h2, h3 {
   font-variant-numeric: tabular-nums;
 }
 
-/* ---------- visit / coupon ---------- */
+.recipe__tabs { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .visit { padding-block: var(--gap); }
 
@@ -520,6 +520,57 @@ h1, h2, h3 {
 .field__input:focus-visible { outline: 3px solid var(--field-2); outline-offset: 2px; }
 .form .btn { margin-top: 8px; background: var(--bg); color: var(--ink); }
 .form .btn:hover { background: #fffdf7; }
+
+/* ---------- contributors ---------- */
+
+.credits { padding: 0 0 calc(var(--gap) * 0.8); }
+
+.credits__head { max-width: 46ch; margin-bottom: clamp(28px, 4vw, 48px); }
+.credits__head h2 {
+  font-size: var(--step-head);
+  margin-bottom: 14px;
+}
+.credits__head p { color: var(--muted); }
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.person {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.person__role {
+  font-size: var(--step-small);
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.person__name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.person__logo {
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  border-radius: 5px;
+  background: var(--ink);
+}
+.person__link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9375rem;
+  color: var(--accent);
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+.person__link:hover { text-decoration: underline; text-underline-offset: 4px; }
 
 /* ---------- footer ---------- */
 
@@ -623,6 +674,7 @@ html.js .stage { animation: fadein 1.1s var(--ease) both; }
   .coupon::after { display: block; bottom: auto; top: calc(46% + 0px); left: 50%; }
   .coupon__left { padding-right: 0; padding-bottom: 44px; }
   .foot__cols { grid-template-columns: 1fr; gap: 16px; }
+  .people { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
