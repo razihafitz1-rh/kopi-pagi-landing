@@ -10,7 +10,6 @@ Landing page statis untuk kedai kopi fiktif bernama **Kopi Pagi** di Cigadung, B
 - **Proses** — tiga tahap dari karung ke cangkir (pilih, sangrai, seduh).
 - **Resep seduh interaktif** — tab V60 / Aeropress / Tubruk yang menukar angka resep.
 - **Kupon pesan meja** — form yang mengirim permintaan via email klien (`mailto:`).
-- **Diagram alur** — file `kopi-pagi.html` (dibuat dengan [Archify](https://github.com/tt-a1i/archify)) menampilkan alur dari kebun ke cangkir.
 
 ## Struktur
 
@@ -21,7 +20,6 @@ assets/
   main.js               Interaksi: galeri, tab resep, reveal, form
   fonts/                Font Jost lokal (woff2)
   *.jpg                 Foto berlisensi terbuka (Wikimedia Commons)
-.archify/               Diagram alur dan file mentahnya
 ```
 
 ## Menjalankan local
@@ -36,7 +34,6 @@ python3 -m http.server 4173
 
 - **[razihafitz1-rh](https://github.com/razihafitz1-rh)** — pemilik repo dan pengarah.
 - **OpenCode** <img src="assets/opencode-logo-ink.svg" alt="Logo OpenCode" width="20" height="20" align="top"> — agen AI ([opencode.ai](https://opencode.ai)) yang menulis kode, tata letak, teks, dan hingar-bingar interaksinya.
-- **Archify** — diagram alur dari kebun ke cangkir (lihat `.archify/`).
 - **Sembilan fotografer Wikimedia Commons** — foto, kredit lengkap di footer halaman.
 
 ## Catatan foto

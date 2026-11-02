@@ -6,7 +6,6 @@ Halaman ini dibuat dan dirawat bersama. Terima kasih untuk semua yang terlibat.
 | --- | --- | --- |
 | Pemilik repo, pengarah | razihafitz1-rh | https://github.com/razihafitz1-rh |
 | Kode, tata letak, teks | OpenCode (agen AI) | https://opencode.ai |
-| Diagram alur | Archify | https://github.com/tt-a1i/archify |
 | Foto | Sembilan fotografer Wikimedia Commons | Kredit lengkap ada di footer `index.html` |
 
 ## Ingin ikut menyumbang?
