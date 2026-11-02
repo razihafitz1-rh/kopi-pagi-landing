@@ -10,7 +10,7 @@ Landing page statis untuk kedai kopi fiktif bernama **Kopi Pagi** di Cigadung, B
 - **Proses** — tiga tahap dari karung ke cangkir (pilih, sangrai, seduh).
 - **Resep seduh interaktif** — tab V60 / Aeropress / Tubruk yang menukar angka resep.
 - **Kupon pesan meja** — form yang mengirim permintaan via email klien (`mailto:`).
-- **Diagram alur** — file `kopi-pagi.html` (dibuat dengan [Archify](https://github.com/tt-a1i/archify)) menampilkan alur dari kebun ke cangkir.
+- **Diagram alur** — file `kopi-pagi.html` (dibuat dengan menampilkan alur dari kebun ke cangkir.
 
 ## Struktur
 
